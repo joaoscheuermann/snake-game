@@ -148,6 +148,7 @@ export const useGameStateStore = create<GameStateStore>((set) => ({
       const futureFood = eaten
         ? random(snake, bounds.min, bounds.max)
         : state.food;
+
       const futureScore = eaten ? state.score + pointPerFood : state.score;
 
       const targetScore = ammountOfFood * pointPerFood;
