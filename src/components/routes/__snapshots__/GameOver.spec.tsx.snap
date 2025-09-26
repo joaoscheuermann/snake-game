@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOver should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-jc-center rt-r-gap-6 h-screen"
+  >
+    <h1
+      class="rt-Heading rt-r-size-9 mb-4"
+    />
+    <h1
+      class="rt-Heading rt-r-size-4 mb-8"
+    >
+      Your score: 
+    </h1>
+    <button
+      class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-surface rt-Button"
+      data-accent-color=""
+    >
+      Play again!
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-jc-center rt-r-gap-9 h-screen"
+  >
+    <h1
+      class="rt-Heading rt-r-size-9 mb-8"
+    >
+      Snake!
+    </h1>
+    <span
+      class="rt-Text"
+    >
+      Click in the Start Game button to start playing
+    </span>
+    <a
+      class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-surface rt-Button"
+      data-accent-color=""
+      data-discover="true"
+      href="/play"
+    >
+      Start Game
+    </a>
+  </div>
+</DocumentFragment>
+`;
